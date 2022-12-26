@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Налаштування поведінки в'юпорта -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 22</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header"> 
+			</header>
+			<main class="page">
+
+					<div class="page__container">
+						<h1 class="page__title">Домашня робота №22 JAVASCRIPT</h1>
+						<div class="page__items home-work">
+							<h2 class="home-work__title">Домашка №1 JS (основи cинтаксису)</h2>
+							<a target="_blank" href="https://www.youtube.com/watch?v=uOeFpp872MY&ab_channel=%D0%A4%D1%80%D1%96%D0%BB%D0%B0%D0%BD%D1%81%D0%B5%D1%80%D0%BF%D0%BE%D0%B6%D0%B8%D1%82%D1%82%D1%8E" class="home-work__video"><img src="img/1.jpg" alt="video1"></a>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №1</h3>
+								<p class="item-work__example">
+									console.log('Вчимо JS')
+								</p>
+								<p class="item-work__answer">
+									Відповідь: помилку не викликає. Варто додати  крапку з комою.
+								</p>
+							</div>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №2</h3>
+								<p class="item-work__example">
+									console.log('JS')<br><br>
+									console.log('Вчимо')
+								</p>
+								<p class="item-work__answer">
+									Відповідь: помилку не викликає. Варто додати крапку з комою після кожної строки.
+								</p>
+							</div>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №3</h3>
+								<p class="item-work__example">
+									console.log('JS') console.log('Вчимо')
+								</p>
+								<p class="item-work__answer">
+									Відповідь: викликає помилку. Варто додати крапку з комою після кожного виразу.
+								</p>
+							</div>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №4</h3>
+								<p class="item-work__example">
+									console.log('Вчимо);<br><br>
+									console.log('JS');
+								</p>
+								<p class="item-work__answer">
+									Відповідь: викликає помилку. У першому виразі слово "Вчимо" не обгорнуто в лапки.
+								</p>
+							</div>
+						</div>
+						<div class="page__items home-work">
+							<h2 class="home-work__title">Домашка №2 JS (змінні, константи, ключові слова)</h2>
+							<a target="_blank" href="https://www.youtube.com/watch?v=5V8IeATHr4w&ab_channel=%D0%A4%D1%80%D1%96%D0%BB%D0%B0%D0%BD%D1%81%D0%B5%D1%80%D0%BF%D0%BE%D0%B6%D0%B8%D1%82%D1%82%D1%8E" class="home-work__video"><img src="img/2.jpg" alt="video2"></a>
+							<div class="home-work__item item-work">								
+								<h3 class="item-work__title">Завдання 1</h3>
+								<p class="item-work__answer">
+									Придумати і`мя змінної для збереження кольору очей користувача сайту
+								</p>
+								<p class="item-work__example">
+									let colorEyesUser;
+								</p>
+								
+							</div>
+							<div class="home-work__item item-work">								
+								<h3 class="item-work__title">Завдання 2</h3>
+								<p class="item-work__answer">
+									Обявити 2 змінних user  та userName. Привласнити значення "Вася" змінній userName. <br>
+									Скопіювати значення змінної userName  в змінну user<br>
+									Вивести в консоль змінну user. Результат має бути "Вася".
+								</p>
+								<p class="item-work__example">
+									let user;<br>
+									let userName;<br>
+									userName = "Вася";<br>
+									user = userName;<br>
+									console.log(user);
+								</p>
+								
+							</div>
+							<div class="home-work__item item-work">								
+								<h3 class="item-work__title">Варіант №1</h3>
+								<p class="item-work__example">
+									let user = "Вася" let age = 36
+								</p>
+								<p class="item-work__answer">
+									Відповідь: написано не вірно. Відсутня кома між виразами, ключове слово let другий раз не потрібно, в кінці має бути крапка з комою.
+								</p>
+							</div>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №2</h3>
+								<p class="item-work__example">
+									let myage = 36;
+								</p>
+								<p class="item-work__answer">
+									Відповідь: написано не вірно. Назва змінної записано не за правилами. Друге слово має бути з великої букви.
+								</p>
+							</div>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №3</h3>
+								<p class="item-work__example">
+									const BLOCK_SIZE = 14 + 50;
+								</p>
+								<p class="item-work__answer">
+									Відповідь: написано не вірно.Оскільки це константа, значення якої присвоюється в процесі виконання програми, назва має бути написана за правилами для змінних.
+								</p>
+							</div>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №4</h3>
+								<p class="item-work__example">
+									const BLOCK_HEIGHT = 100;
+								</p>
+								<p class="item-work__answer">
+									Відповідь: написано вірно.Для констант, значення яких відомі з самого початку, назва пишеться у верхньому регістрі та слова розділяються нижнім підкресленням.
+								</p>
+							</div>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №5</h3>
+								<p class="item-work__example">
+									if (true) {<br>
+										var size = 15;<br>
+									}<br>
+									console.log(size);
+								</p>
+								<p class="item-work__answer">
+									Відповідь: Написано вірно. Якщо змінну було об'явлено з допомогою ключогового слова var в блоці то з цією змінною можна працювати за межами блоку. В косоль виводиться цифра 15.
+								</p>
+							</div>
+						</div>
+						<div class="page__items home-work">
+							<h2 class="home-work__title">Домашка №3 JS (тип данних)</h2>
+							<a target="_blank" href="https://www.youtube.com/watch?v=g7jDucodUzQ&ab_channel=%D0%A4%D1%80%D1%96%D0%BB%D0%B0%D0%BD%D1%81%D0%B5%D1%80%D0%BF%D0%BE%D0%B6%D0%B8%D1%82%D1%82%D1%8E" class="home-work__video"><img src="img/3.jpg" alt="video3"></a>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №1</h3>
+								<p class="item-work__example">
+									let userAge = 36;<br>
+									let userInfo = "Фрілансер ${userAge}";
+								</p>
+								<p class="item-work__answer">
+									Відповідь: не вірно. Для того, щоб додати до виразу змінну потрібно обгортати його в зворотні лапки ``.
+								</p>
+							</div>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №2</h3>
+								<p class="item-work__example">
+									let userHeight = 145 / 0;<br>
+									<span>// Повернеться значення NaN</span><br>
+									console.log(userHeight);
+								</p>
+								<p class="item-work__answer">
+									Відповідь: не вірно. Повернеться значення Infinity.
+								</p>
+							</div>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №3</h3>
+								<p class="item-work__example">
+									let userName;<br>
+									<span>// Повернеться тип даних Null</span><br>
+									console.log(typeof userName);
+								</p>
+								<p class="item-work__answer">
+									Відповідь: не вірно. Повернеться тип данних undefined.
+								</p>
+							</div>
+							<div class="home-work__item item-work">
+								<h3 class="item-work__title">Варіант №4</h3>
+								<p class="item-work__example">
+									let userSize = "45" / "8";<br>
+									<span>//Повернеться тип данних number</span><br>
+									console.log(typeof userSize);
+								</p>
+								<p class="item-work__answer">
+									Відповідь: вірно. Повернеться тип данних number.
+								</p>
+							</div>
+						</div>
+					</div>
+			
+			
+			</main>
+			<footer class="footer">
+			</footer>
+		</div>
+		<script src="js/script.js">	</script>
+	</body>
+</html>
